@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router} from 'react-router-dom';
-import TestComp from './components/TestComp';
+import Header from './components/TestComp';
 
 
 const App = () => (
   <Router>
     <React.Fragment>
-		<TestComp />
+		<Header />
     </React.Fragment>
   </Router>
 );
