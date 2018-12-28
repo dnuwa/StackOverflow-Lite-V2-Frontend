@@ -1,9 +1,9 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Header from '.';
+import Home from '.';
 
-describe('renders header', () => {
-  it('renders header without fail', () => {
-    shallow(<Header />);
+describe('renders Home', () => {
+  it('renders Home without fail', () => {
+    shallow(<Home />);
   });
 });
