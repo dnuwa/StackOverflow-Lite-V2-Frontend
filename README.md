@@ -1,3 +1,3 @@
-# StackOverflow-Lite-V2-Frontend
+# StackOverflow-Lite-V2-Frontend				[![Build Status](https://travis-ci.org/dnuwa/StackOverflow-Lite-V2-Frontend.svg?branch=develop)](https://travis-ci.org/dnuwa/StackOverflow-Lite-V2-Frontend)				[![Coverage Status](https://coveralls.io/repos/github/dnuwa/StackOverflow-Lite-V2-Frontend/badge.svg?branch=develop)](https://coveralls.io/github/dnuwa/StackOverflow-Lite-V2-Frontend?branch=develop)				[![Maintainability](https://api.codeclimate.com/v1/badges/9271b13c1c51415316c3/maintainability)](https://codeclimate.com/github/dnuwa/StackOverflow-Lite-V2-Frontend/maintainability)
 
 StackOverflow-lite is a platform where people can ask questions and provide answers.
