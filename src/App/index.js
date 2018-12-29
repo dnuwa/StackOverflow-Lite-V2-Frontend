@@ -5,6 +5,7 @@ import Header from '../components/Header';
 import '../styles/main.css';
 import history from '../commons/history';
 import loginContainer from '../containers/loginContainer';
+import { SiginUpContainer } from '../containers/signupContainer';
 
 
 const App = () => (
@@ -14,7 +15,9 @@ const App = () => (
       <Notification />
       <Switch>
         {/* <Route path="/" component={Home} /> */}
-        <Route path="/" component={loginContainer} />
+        <Route path="/" component={loginContainer} exact />
+        <Route path="/login" component={loginContainer} />
+        <Route path="/signup" component={SiginUpContainer} />
       </Switch>
     </React.Fragment>
   </Router>
