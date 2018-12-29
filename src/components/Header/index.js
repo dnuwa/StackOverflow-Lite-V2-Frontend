@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Home = () => (
+const Header = () => (
   <header className="header">
     <h1>StackOverflow-lite</h1>
   </header>
 );
 
-export default Home;
+export default Header;
