@@ -11,12 +11,10 @@ export class LoginContainer extends Component {
 
   handleChange = (event) => {
     this.setState({ [event.target.id]: event.target.value });
-    // console.log(this.state);
   };
 
   handleSubmit = (event) => {
     event.preventDefault();
-    // console.log(this.state);
     LoginAction(this.state, this.props);
   };
 

@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
 import SignUp from '../../components/Signup';
 import SignupAction from '../../actions/signupAction/signupAction';
 
-export class SiginUpContainer extends Component {
+class SiginUpContainer extends Component {
   state = {
     dname: '',
     email: '',
@@ -32,4 +31,4 @@ export class SiginUpContainer extends Component {
   }
 }
 
-export default connect()(SiginUpContainer);
+export default SiginUpContainer;

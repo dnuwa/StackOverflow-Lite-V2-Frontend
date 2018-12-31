@@ -114,7 +114,7 @@
       "src/**/*.{js,jsx,mjs}",
       "!src/setupTests.js",
       "!src/index.js",
-      "!src/store.js"
+      "!src/store/index.js"
     ],
     "testEnvironment": "jsdom",
     "preset": "jest-puppeteer",

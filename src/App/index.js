@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import '../styles/main.css';
 import history from '../commons/history';
 import loginContainer from '../containers/loginContainer';
-import { SiginUpContainer } from '../containers/signupContainer';
+import SiginUpContainer from '../containers/signupContainer';
 import QuestionContainer from '../containers/questionsContainer';
 
 
