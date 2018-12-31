@@ -8,7 +8,7 @@ import LoginContainer from './index';
 
 const store = configureStore([thunk])({});
 
-describe('handle Invoke email for password reset', () => {
+describe('handle Invoke login', () => {
   let component;
   beforeEach(() => {
     component = mount(

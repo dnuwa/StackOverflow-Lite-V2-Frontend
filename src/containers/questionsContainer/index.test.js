@@ -7,7 +7,7 @@ import QuestionContainer from '.';
 
 const store = configureStore([thunk])({});
 
-describe('handle Invoke email for password reset', () => {
+describe('handle Invoke signup', () => {
   let component;
   beforeEach(() => {
     component = mount(
