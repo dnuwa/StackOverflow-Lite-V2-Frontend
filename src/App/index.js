@@ -6,6 +6,7 @@ import '../styles/main.css';
 import history from '../commons/history';
 import loginContainer from '../containers/loginContainer';
 import { SiginUpContainer } from '../containers/signupContainer';
+import QuestionContainer from '../containers/questionsContainer';
 
 
 const App = () => (
@@ -14,10 +15,10 @@ const App = () => (
       <Header />
       <Notification />
       <Switch>
-        {/* <Route path="/" component={Home} /> */}
         <Route path="/" component={loginContainer} exact />
         <Route path="/login" component={loginContainer} />
         <Route path="/signup" component={SiginUpContainer} />
+        <Route path="/questions" component={QuestionContainer} />
       </Switch>
     </React.Fragment>
   </Router>

@@ -17,7 +17,7 @@ export class LoginContainer extends Component {
   handleSubmit = (event) => {
     event.preventDefault();
     // console.log(this.state);
-    LoginAction(this.state);
+    LoginAction(this.state, this.props);
   };
 
   render() {
