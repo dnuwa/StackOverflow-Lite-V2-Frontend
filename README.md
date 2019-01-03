@@ -5,6 +5,10 @@
 
 StackOverflow-lite is a platform where people can ask questions and provide answers.
 
+## Heroku App
+
+https://stackoverflow-lit.herokuapp.com/
+
 ## Set up of the App
 
 1. Create a folder e.g `stackoverflro-lite-frontend`
@@ -24,3 +28,5 @@ StackOverflow-lite is a platform where people can ask questions and provide answ
 6. Run the production build locally using `npm run start:prod`
 
 7. Run Tests using `npm run test`
+
+8. Run Tests with coverage `npm test -- -u --coverage`
