@@ -1,6 +1,5 @@
 import React from 'react';
 import * as PropTypes from 'prop-types';
-// import { Link } from 'react-router-dom';
 
 const Questions = ({ handleText, handleSubmit }) => (
   <div className="questions-div">

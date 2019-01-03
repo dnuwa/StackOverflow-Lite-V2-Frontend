@@ -7,6 +7,7 @@ import history from '../commons/history';
 import loginContainer from '../containers/loginContainer';
 import SiginUpContainer from '../containers/signupContainer';
 import QuestionContainer from '../containers/questionsContainer';
+import QuestionsContainer from '../containers/allQuestions';
 
 
 const App = () => (
@@ -19,6 +20,7 @@ const App = () => (
         <Route path="/login" component={loginContainer} />
         <Route path="/signup" component={SiginUpContainer} />
         <Route path="/questions" component={QuestionContainer} />
+        <Route path="/allquestions" component={QuestionsContainer} />
       </Switch>
     </React.Fragment>
   </Router>
